@@ -20,7 +20,7 @@ function Home() {
 
 
   useEffect(() => {
-    fetch('https://backendmoviz5.vercel.app/')
+    fetch('https://backendmoviz5.vercel.app/movies')
       .then(response => response.json())
       .then(data => {
         console.log(data.movies)
